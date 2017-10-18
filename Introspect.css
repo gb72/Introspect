@@ -1,4 +1,6 @@
 p{
+    text-align: center;
+    font-family: : Times New Roman;
 
 }
 ul {
@@ -40,4 +42,9 @@ li a:hover{
 }
 h2{ 
 	padding-top: 100px;
+    text-align: center; 
+    text-decoration: underline;
+    font-family: Times New Roman;
 	 }
+
+

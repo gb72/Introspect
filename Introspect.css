@@ -33,18 +33,48 @@ li a:hover{
 
 
 .logo{
-	padding-top: 50px;
-	padding-left: 250px;
+    width: 83%;
+    margin-left:240px;
+	margin-top:50px;
+	
 }
-.gallery{
-	padding-top: 100px;
-	padding-left: 450px;
+.gallery {
+    display: inline-block;
+/*    margin: 5px;
+*/ }
+#leftarrow{
+    margin-bottom:300px;
+    margin-left:200px;
+    background-color: white;
+    margin-right:50px;
+    border-right:60px solid black;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
 }
-h2{ 
-	padding-top: 100px;
+#rightarrow{
+    margin-bottom:300px;
+    margin-left:50px;
+    background-color: white;
+/*    height:50px;
+    width:50px;*/
+    border-left:60px solid black;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+}
+#photo{
+    width: 700px;
+    height:450px;
+    background-color: black;
+    margin-bottom: 100px;
+/*	padding-top: 100px;
+	padding-left: 400px;*/
+}
+
+/*#Gallery{ 
+	margin-top: 100px;
     text-align: center; 
     text-decoration: underline;
     font-family: Times New Roman;
-	 }
+	 }*/
 
 

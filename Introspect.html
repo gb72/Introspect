@@ -81,7 +81,7 @@
 
 	<h2 id="Featured">Featured In</h2>
 
-		<br /> <a href="https://thestand-online.com/2017/02/18/a-perspective-on-introspect/" target="_A Perspective on Introspect"> <p> Check out what The Stand had to say about our event: A Perspective on Introspect </p>
+		<br /> <a href="https://thestand-online.com/2017/02/18/a-perspective-on-introspect/" target="_A Perspective on Introspect"> <a> Check out what The Stand had to say about our event: A Perspective on Introspect </p>
 		<br />
 		<br />
 		<br />
@@ -95,12 +95,44 @@
 		<br />
 
 	<h2 id="Contact">Contact Us</h2>
-		
-		<a href="https://www.facebook.com/Introspectstandrews/" target="_blank"> <p> Find us on Facebook! </p>
+	<div class="container">
+		<div id="formbox">
+			<p> Send us an Email </p>
+			<form action="/action_page.php">
+				<label for="name">Full Name</label>
+			    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			    <label for="email">Email</label>
+			    <input type="text" id="email" name="Email" placeholder="Your Email">
+			    
 
-		<br />
-		<br />
-		<br />
-		<br />
+			    <label for="subject">Subject</label>
+			    <select id="subject" name="subject" >
+			    	<option value="default">Please choose an option</option>
+			      <option value="eventinfo">Request Event Information</option>
+			      <option value="submission">Submit a piece of artwork</option>
+			      <option value="volunteer">Volunteer to help with event</option>
+			      <option value="other">other</option>
+			    </select>
+
+			    <label for="subject">Message</label>
+				<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+			    <input type="submit" value="Submit">
+
+ 			</form>
+ 		</div>
+ 		<div id="social">
+ 			<p> Or alternatively find us on social media! </p>
+
+ 			<a href="https://www.facebook.com/Introspectstandrews/" target="_blank">
+				<input type="image" id="facebook" src="facebooklogo.png">
+			</a>
+			<a href="">
+				<input type="image" id="twitter" src="twitterlogo.png" >
+			</a>
+ 
+			</div>
+ 		</div>
+
+
 </body>
 </html>

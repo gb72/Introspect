@@ -77,4 +77,71 @@ li a:hover{
     font-family: Times New Roman;
 	 }*/
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text] {
+    width:43.35%;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+select,textarea {
+    width:100%;
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
 
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+/*.container{;
+}*/
+#formbox {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right:400px;
+}
+#social {
+    width:400px;
+    height:477px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.08);
+    padding: 20px;
+    margin-right:0px;
+    margin-left: 930px;
+    margin-top:-516px;
+}
+#twitter{
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+}
+#facebook{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+/*    background-size: 100px 100px;*/
+}

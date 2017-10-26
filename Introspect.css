@@ -1,6 +1,17 @@
+body{
+    background-color: #f2f2f2;
+}
 p{
     text-align: center;
-    font-family: : Times New Roman;
+    font-family: 'Quicksand', sans-serif;
+
+}
+h2{
+    display: block;
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
 
 }
 ul {
@@ -16,6 +27,7 @@ ul {
     
 }
 li {
+    font-family: 'Quicksand', sans-serif;
     float: left;
 }
 
@@ -23,7 +35,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 82.6px;
+    padding: 14px 78.3px;
     text-decoration: none;
 }
 
@@ -33,51 +45,43 @@ li a:hover{
 
 
 .logo{
+    background-color: white;
     width: 83%;
-    margin-left:240px;
+    margin-left:0px;
 	margin-top:50px;
+    padding-left:240px;
 	
 }
-.gallery {
-    display: inline-block;
-/*    margin: 5px;
-*/ }
-#leftarrow{
-    margin-bottom:300px;
-    margin-left:200px;
-    background-color: white;
-    margin-right:50px;
-    border-right:60px solid black;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
+.gl {
+    box-sizing: border-box;
+    display:inline-block;
 }
-#rightarrow{
-    margin-bottom:300px;
-    margin-left:50px;
-    background-color: white;
-/*    height:50px;
-    width:50px;*/
-    border-left:60px solid black;
+#leftarrow{
+    padding-left:180px;
+    background-color: #f2f2f2;
+    border-right:50px solid #ccc;
     border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
+    border-radius: 10px;
+
+}
+
+#rightarrow{
+    background-color: #f2f2f2;
+    border-left:50px solid #ccc;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-radius: 10px;
 }
 #photo{
-    width: 700px;
+    width:700px;
     height:450px;
-    background-color: black;
-    margin-bottom: 100px;
-/*	padding-top: 100px;
-	padding-left: 400px;*/
+    padding: 10px 50px;
+    border:white;
+    border-width: 10px;
+    border-radius: 5px;
+
 }
-
-/*#Gallery{ 
-	margin-top: 100px;
-    text-align: center; 
-    text-decoration: underline;
-    font-family: Times New Roman;
-	 }*/
-
-/* Style inputs with type="text", select elements and textareas */
 input[type=text] {
     width:43.35%;
     padding: 12px; /* Some padding */ 
@@ -128,7 +132,7 @@ input[type=submit]:hover {
     width:400px;
     height:477px;
     border-radius: 5px;
-    background-color: rgba(0,0,0,.08);
+    background-color: #f2f2f2;
     padding: 20px;
     margin-right:0px;
     margin-left: 930px;

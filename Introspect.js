@@ -4,24 +4,28 @@ var index = 0;
 
 function rightchangeimage()
 {
-	// var img = document.getElementById("photo");
+	var img = document.getElementById("photo");
+	var over = document.getElementById("overimg");
 	
 	index=index+1;
 
 	if(index >= images.length){
 		index=0;
 	}
-	photo.src = images[index];
+	img.src = images[index];
+	over.src = images[index];
 }
 function leftchangeimage()
 {
-	// var img= document.getElementById("photo");
+	var img= document.getElementById("photo");
+	var over=document.getElementById("overimg");
 	index=index-1;
 
 	if(index <0){
 		index=images.length-1;
 	}
-	photo.src = images[index];
+	img.src = images[index];
+	over.src = images[index];
 }
 
 
@@ -39,7 +43,17 @@ document.getElementById('buttonboxprevious').onclick = leftchangeimage;
 document.getElementById('buttonboxnext').onclick = rightchangeimage;
 
 
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
 
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+
+
+document.getElementById('photo').onclick= on;
+document.getElementById('overlay').onclick= off;
 // function enlargeimage()
 // {
 // 	var img = getElementById('photo')
@@ -48,3 +62,13 @@ document.getElementById('buttonboxnext').onclick = rightchangeimage;
 // }
 
 // document.getElementById('photo').onclick = enlargeimage;
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109369660-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109369660-1');
+</script>

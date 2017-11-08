@@ -10,11 +10,11 @@ p{
 
 
 #buttonboxprevious {
-    width: 100px;
+    width: 90px;
     height: 40px;
     background-color: #ccc;
     position: relative;
-    margin-left: 140px;
+    margin-left: 275px;
     border-radius: 5px;
 }
 
@@ -46,7 +46,7 @@ p{
 
 
 #buttonboxnext {
-    width: 100px;
+    width: 90px;
     height: 40px;
     background-color: #ccc;
     position: relative;
@@ -197,7 +197,7 @@ li a:hover{
 }
 */
 #photo{
-    margin: 10px 50px;
+    margin: 40px 10px;
     border: 5px solid #ccc;
     border-radius: 5px;
 
@@ -225,6 +225,13 @@ li a:hover{
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
+}
+#overimg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: auto;
 }
 
 input[type=text] {

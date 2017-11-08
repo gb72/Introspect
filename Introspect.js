@@ -2,9 +2,9 @@ var images =[];
 var index = 0;
 
 
-function rightchangeImage()
+function rightchangeimage()
 {
-	var img = document.getElementById("photo");
+	// var img = document.getElementById("photo");
 	
 	index=index+1;
 
@@ -13,9 +13,9 @@ function rightchangeImage()
 	}
 	photo.src = images[index];
 }
-function leftchangeImage()
+function leftchangeimage()
 {
-	var img = document.getElementById("photo");
+	// var img= document.getElementById("photo");
 	index=index-1;
 
 	if(index <0){
@@ -25,8 +25,8 @@ function leftchangeImage()
 }
 
 
-images[0]= "IntrospectPhoto1.jpg";
-images[1]= "IntrospectPhoto2.jpg";
+images[0]="IntrospectPhoto1.jpg";
+images[1]="IntrospectPhoto2.jpg";
 images[2]="IntrospectPhoto3.jpg";
 images[3]="IntrospectPhoto4.jpg";
 images[4]="IntrospectPhoto5.jpg";
@@ -35,5 +35,16 @@ images[6]="IntrospectPhoto7.jpg";
 
 
 
-document.getElementById('leftarrow').onclick = leftchangeImage;
-document.getElementById('rightarrow').onclick = rightchangeImage;
+document.getElementById('buttonboxprevious').onclick = leftchangeimage;
+document.getElementById('buttonboxnext').onclick = rightchangeimage;
+
+
+
+// function enlargeimage()
+// {
+// 	var img = getElementById('photo')
+// 	img.width=1000px;
+// 	img.height=auto;
+// }
+
+// document.getElementById('photo').onclick = enlargeimage;

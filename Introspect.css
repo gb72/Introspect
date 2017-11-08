@@ -12,21 +12,23 @@ h2{
     padding-top: 50px;
     padding-bottom: 10px;
     font-family: 'Quicksand', sans-serif;
-
 }
 
-}
-#block1 {
+li1 {
     font-family: 'Quicksand', sans-serif;
-    float: left;
-    width: 50px;
-
+    margin-left: 40px;
+    font-size: 16px;
 }
-#block2 {
+
+.articles {
+    -webkit-columns: 100px 2;
+    -moz-columns: 100px 2;
+    columns: 100px 2;
+    margin-top: 30px;
     font-family: 'Quicksand', sans-serif;
-    float: right;
 
 }
+
 ul {
 	position: fixed;
     top: 0;

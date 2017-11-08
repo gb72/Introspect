@@ -10,7 +10,6 @@ p{
 }
 
 
-
 h2{
     display: block;
     width:100%;
@@ -181,7 +180,6 @@ li a:hover{
 
 
 
-
 #photo{
     margin: 40px 10px;
     border: 5px solid #ccc;
@@ -190,7 +188,7 @@ li a:hover{
     height: 5%
 
 }
-#photohover {
+#photo:hover {
     border: 5px solid black;
     /*border: 10px solid #777;*/
 }
@@ -204,8 +202,8 @@ li a:hover{
 #overlay {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
-    width: 10%; /* Full width (cover the whole page) */
-    height: 5%; /* Full height (cover the whole page) */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
     top: 0; 
     left: 0;
     right: 0;

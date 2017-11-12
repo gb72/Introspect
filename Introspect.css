@@ -20,16 +20,26 @@ h2{
 
 li1 {
     font-family: 'Quicksand', sans-serif;
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: 16px;
+
+}
+
+li2 {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 50px;
+    font-size: 16px;
+
 }
 
 .articles {
     -webkit-columns: 100px 2;
     -moz-columns: 100px 2;
     columns: 100px 2;
-    margin-top: 30px;
-    font-family: 'Quicksand', sans-serif;
+    margin-top: 25px;
+    font: 400 18px/0.8 'Cookie', Helvetica, sans-serif;
+    line-height: 25px;
+    background-color: #f2f2f2;
 
 }
 

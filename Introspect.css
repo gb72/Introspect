@@ -43,7 +43,7 @@ li2{
     font: 400 18px/0.8 'Cookie', Helvetica, sans-serif;
     line-height: 25px;
     background-color: #f2f2f2;
-    border-style: solid;
+    border-style: groove;
     border-width: 30px;
 
 }

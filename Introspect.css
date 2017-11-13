@@ -43,7 +43,7 @@ li2 {
 
 }
 
-ul {
+/*ul {
 	position: fixed;
     top: 0;
     left:0;
@@ -69,21 +69,30 @@ li a {
 }
 
 li a:hover{
-    background-color: #111;
-}
+    background-color: #ccc;
+    color: black;
+}*/
 
 
 .logo{
     background-color: white;
-    width: 83%;
+    width: 98%;
     margin-left:0px;
-	margin-top:50px;
-    padding-left:240px;
+	margin-top:75px;
+    padding-left:20%;
 	
 }
 .gl {
     box-sizing: border-box;
     display:inline-block;
+}
+.imggal{
+       width: 300px;
+    height: 200px;
+    margin: 20px 15px;
+    border: black;
+    border-radius: 5px;
+
 }
 /*#leftarrow{
     margin-left:180px;
@@ -117,7 +126,7 @@ li a:hover{
 }
 */
 
-#buttonboxprevious {
+/*#buttonboxprevious {
     width: 90px;
     height: 40px;
     background-color: #ccc;
@@ -209,6 +218,7 @@ li a:hover{
     border-width: 50px 0 50px 86.6px;
     border-color: transparent transparent transparent black;
     /*border: 10px solid #777;*/
+
 #overlay {
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
@@ -222,13 +232,13 @@ li a:hover{
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
 }
-#overimg{
+/*#overimg{
     display:block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
     margin-bottom: auto;
-}
+}*/
 
 input[type=text] {
     width:43.35%;
@@ -274,7 +284,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-right:400px;
+    margin-right:200px;
 }
 #social {
     width:400px;

@@ -44,7 +44,8 @@ li2{
     line-height: 25px;
     background-color: #f2f2f2;
     border-style: groove;
-    border-width: 30px;
+    border-width: 50px;
+    border-color:#33334C;
 
 }
 
@@ -86,7 +87,8 @@ li a:hover{
 	margin-top:75px;
     padding-left:20%;
      border-style: groove;
-     border-width: 30px;
+     border-width: 100px;
+     border-color: #33334C;
 	
 }
 .gl {
@@ -100,8 +102,8 @@ li a:hover{
     margin: 20px 15px;
     border-color: #33334C;
     border-radius: 5px;
-    border-style: solid;
-    border-width: 15px;
+    border-style: double;
+    border-width: 30px;
 
 
 }
@@ -302,7 +304,8 @@ input[type=submit]:hover {
     padding: 20px;
     margin-right:400px;
     border-style: groove;
-    border-width: 30px;
+    border-width: 50px;
+    border-color:#33334C;
 }
 #social {
     width:400px;
@@ -314,7 +317,8 @@ input[type=submit]:hover {
     margin-left: 930px;
     margin-top:-516px;
     border-style: groove;
-    border-width: 20px;
+    border-width: 30px;
+    border-color:#33334C;
 }
 #twitter{
         width: 50px;

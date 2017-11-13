@@ -1,5 +1,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+.normalize.css
+
 body{
     background-color: #f2f2f2;
 }
@@ -43,7 +46,7 @@ li2 {
 
 }
 
-ul {
+/*ul {
 	position: fixed;
     top: 0;
     left:0;
@@ -69,21 +72,30 @@ li a {
 }
 
 li a:hover{
-    background-color: #111;
-}
+    background-color: #ccc;
+    color: black;
+}*/
 
 
 .logo{
     background-color: white;
-    width: 83%;
+    width: 98%;
     margin-left:0px;
-	margin-top:50px;
-    padding-left:240px;
+	margin-top:75px;
+    padding-left:20%;
 	
 }
 .gl {
     box-sizing: border-box;
     display:inline-block;
+}
+.imggal{
+       width: 300px;
+    height: 200px;
+    margin: 20px 15px;
+    border: black;
+    border-radius: 5px;
+
 }
 /*#leftarrow{
     margin-left:180px;
@@ -117,7 +129,7 @@ li a:hover{
 }
 */
 
-#buttonboxprevious {
+/*#buttonboxprevious {
     width: 90px;
     height: 40px;
     background-color: #ccc;
@@ -154,6 +166,7 @@ li a:hover{
 
 
 #buttonboxnext {
+    box-sizing: border-box;
     width: 90px;
     height: 40px;
     background-color: #ccc;
@@ -163,6 +176,7 @@ li a:hover{
 }
 
 #buttonboxnext:before {
+    box-sizing: border-box;
     content: "";
     position: absolute;
     top: 0;
@@ -191,6 +205,7 @@ li a:hover{
 
 
 #photo{
+    box-sizing: border-box;
     margin: 40px 10px;
     border: 5px solid #ccc;
     border-radius: 5px;
@@ -200,6 +215,7 @@ li a:hover{
 }
 #photo:hover {
     border: 5px solid black;
+    box-sizing: border-box;
     /*border: 10px solid #777;*/
 }
 /*.pulse-button:hover {
@@ -210,6 +226,7 @@ li a:hover{
     border-color: transparent transparent transparent black;
     /*border: 10px solid #777;*/
 #overlay {
+    box-sizing: border-box;
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
     width: 100%; /* Full width (cover the whole page) */
@@ -223,6 +240,7 @@ li a:hover{
     cursor: pointer; /* Add a pointer on hover */
 }
 #overimg{
+    box-sizing: border-box;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -310,4 +328,354 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
 /*    background-size: 100px 100px;*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 8000px) {
+
+body{
+    background-color: #f2f2f2;
+}
+p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+h2{
+    display: block;
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+li1 {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 30px;
+    font-size: 16px;
+
+}
+
+li2 {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 50px;
+    font-size: 16px;
+
+}
+
+.articles {
+    -webkit-columns: 100px 2;
+    -moz-columns: 100px 2;
+    columns: 100px 2;
+    margin-top: 25px;
+    font: 400 18px/0.8 'Cookie', Helvetica, sans-serif;
+    line-height: 25px;
+    background-color: #f2f2f2;
+
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.5);
+    
+}
+li {
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 78.3px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+
+.logo{
+    background-color: white;
+    width: 83%;
+    margin-left:0px;
+    margin-top:50px;
+    padding-left:240px;
+    
+}
+.gl {
+    box-sizing: border-box;
+    display:inline-block;
+}
+/*#leftarrow{
+    margin-left:180px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 86.6px 50px 0;
+    border-color: transparent #ccc transparent transparent;
+
+ 
+    margin-left:180px;
+    background-color: #f2f2f2;
+    border-right:50px solid #ccc;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-radius: 10px;
+
+}*/
+
+/*#rightarrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 86.6px;
+    border-color: transparent transparent transparent #ccc;
+    background-color: #f2f2f2;
+    border-left:50px solid #ccc;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-radius: 10px;
+}
+*/
+
+#buttonboxprevious {
+    width: 90px;
+    height: 40px;
+    background-color: #ccc;
+    position: relative;
+    margin-left: 275px;
+    border-radius: 5px;
+}
+
+#buttonboxprevious:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -17px;
+    border-style: solid;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #ccc transparent transparent;
+}
+
+#buttonboxprevious > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font: bold 18px/40px Sans-Serif;
+}
+
+#buttonboxprevious:hover {
+    background-color: black;
+}
+
+#buttonboxprevious:hover:before {
+    border-right-color: #ccc;
+}
+
+
+#buttonboxnext {
+    box-sizing: border-box;
+    width: 90px;
+    height: 40px;
+    background-color: #ccc;
+    position: relative;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+#buttonboxnext:before {
+    box-sizing: border-box;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    border-style: solid;
+    border-width: 20px 0px 20px 20px;
+    border-color: transparent transparent transparent #ccc ;
+}
+
+#buttonboxnext > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font: bold 18px/40px Sans-Serif;
+}
+
+#buttonboxnext:hover {
+    background-color: black;
+}
+
+#buttonboxnext:hover:before {
+    border-left-color: #ccc;
+}
+
+
+
+#photo{
+    box-sizing: border-box;
+    margin: 40px 10px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    width: 10%
+    height: 5%
+
+}
+#photo:hover {
+    border: 5px solid black;
+    box-sizing: border-box;
+    /*border: 10px solid #777;*/
+}
+/*.pulse-button:hover {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 0 50px 86.6px;
+    border-color: transparent transparent transparent black;
+    /*border: 10px solid #777;*/
+
+#overlay {
+    box-sizing: border-box;
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+<<<<<<< HEAD
+#overimg{
+    box-sizing: border-box;
+=======
+/*#overimg{
+>>>>>>> 4265b32078634340e57089c8da0ee2a3745526df
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: auto;
+}*/
+
+input[type=text] {
+    width:43.35%;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+select,textarea {
+    width:100%;
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+/*.container{;
+}*/
+#formbox {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right:200px;
+}
+#social {
+    width:400px;
+    height:477px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right:0px;
+    margin-left: 930px;
+    margin-top:-516px;
+}
+#twitter{
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+}
+#facebook{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+/*    background-size: 100px 100px;*/
+}
+#snapchat{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+/*    background-size: 100px 100px;*/
+}
+
+#linkedin{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+/*    background-size: 100px 100px;*/
+
+
+
+
+
+
+}
 }

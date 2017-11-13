@@ -4,17 +4,50 @@
 	<title>Introspect</title>
 	<link rel="stylesheet" type="text/css" href="Introspect.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="src/css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
-	<ul>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="#">Introspect</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav text-md-center nav-justified w-100">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#About" Click to move to ID 'About'>About </a>
+	      </li>
+	      <li class="nav-item">
+	      <a class="nav-link" href="#Gallery" Click to move to ID 'Gallery'>Gallery</a>
+	      </li>
+	      <li class="nav-item">
+	      <a class="nav-link" href="#Events" Click to move to ID 'Events'>Events</a>
+	      </li>
+	      <li class="nav-item">
+	      <a class="nav-link" href="#Featured" Click to move to ID 'Featured'>Featured In</a>
+	      </li>
+	      <li class="nav-item">
+	      <a class="nav-link" href="#Involved" Click to move to ID 'Involved'>Get Involved</a>
+	      </li>
+	      <li class="nav-item">
+	      <a class="nav-link" href="#Contact" Click to move to ID 'Contact'>Contact </a>
+	      </li>
+
+
+	    </ul>
+	  </div>
+	</nav>
+<!-- 	<ul>
 	  	<li><a href="#About" Click to move to ID 'About'>About</a></li> 
 	  	<li><a href="#Gallery" Click to move to ID 'Gallery'>Gallery</a></li>
 	  	<li><a href="#Events" Click to move to ID 'Events'>Events</a></li>
 	  	<li><a href="#Featured" Click to move to ID 'Featured'>Featured In</a></li>
 	  	<li><a href="#Involved" Click to move to ID 'Involved'>Get Involved</a></li>
 	  	<li><a href="#Contact" Click to move to ID 'Contact'>Contact Us</a></li>
-	</ul> 
+	</ul>  -->
 	<div class="logo">
 		<img src="IntrospectLogoTop.jpg" width="77.5%">
 		<img src="IntrospectLogoBottom.jpg" width="77.5%">
@@ -26,24 +59,40 @@
 
 	<h2 id="Gallery">Gallery</h2>
 
-	<div class="gl">
+<!-- 	<div class="gl">
 		<div id="buttonboxprevious"><a>Previous</a></div>
 	</div>
-
-<!-- 	<div class="gl">
-		<img id="photo" src="IntrospectPhoto1.jpg" alt="">
-		<div id="overlay"><img id="overimg" src="IntrospectPhoto1.jpg" width="100%" height="auto"></div> -->
 		
 	<div class="gl">
 		<img id="photo" src="IntrospectPhoto1.jpg" width="550px" height="350px" alt="">
 		<div id="overlay"><img id="overimg" src="IntrospectPhoto1.jpg" width="60%" height="auto"></div>
-
-
 	</div>
 
 	<div class="gl">
 		<div id="buttonboxnext"><a>Next</a></div>
-	</div>
+	</div> -->
+	<a class="example-image-link" data-lightbox="example-set" href="IntrospectPhoto1.jpg">
+  	<img class=imggal src="IntrospectPhoto1.jpg">
+	</a>
+	<a class="example-image-link" data-lightbox="example-set" href="IntrospectPhoto2.jpg">
+  	<img class=imggal src="IntrospectPhoto2.jpg">
+	</a>
+	<a class="example-image-link" data-lightbox="example-set" href="IntrospectPhoto3.jpg">
+  	<img class=imggal src="IntrospectPhoto3.jpg">
+	</a>
+	<a class="example-image-link" data-lightbox="example-set" href="IntrospectPhoto4.jpg">
+  	<img class=imggal src="IntrospectPhoto4.jpg">
+	</a>
+	<a class="example-image-link" data-lightbox="example-set" href="IntrospectPhoto5.jpg">
+  	<img class=imggal src="IntrospectPhoto5.jpg">
+	</a>
+	<a class="example-image-link" data-lightbox="example-set" href="IntrospectPhoto6.jpg">
+  	<img class=imggal src="IntrospectPhoto6.jpg">
+	</a>
+	<a class="example-image-link" data-lightbox="example-set" href="IntrospectPhoto7.jpg">
+  	<img class=imggal src="IntrospectPhoto7.jpg">
+	</a>
+
 
 	<script src="Introspect.js"></script>
 
@@ -95,12 +144,13 @@
 	<div class="container">
 		<div id="formbox">
 			<p> Send us an Email </p>
-			<div> action="/action_page.php">
+			<divaction="/action_page.php">
 				<label for="name">Full Name</label>
-			    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			    <input type="text" id="fname" name="firstname" placeholder="Your name">
+			    <br/>
 			    <label for="email">Email</label>
 			    <input type="text" id="email" name="Email" placeholder="Your Email">
-			    
+			    <br/>
 
 			    <label for="subject">Subject</label>
 			    <select id="subject" name="subject" >
@@ -110,9 +160,11 @@
 			      <option value="volunteer">Volunteer to help with event</option>
 			      <option value="other">other</option>
 			    </select>
+			    <br/>
+			    <br/>
 
 			    <label for="subject">Message</label>
-				<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+				<textarea id="message" name="message" placeholder="Say hello!" style="height:200px"></textarea>
 			    <input type="submit" value="Submit">
 
  			</div>
@@ -136,6 +188,19 @@
  
 			</div>
  		</div>
+
+ <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+<script src="src/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    });
+</script>
 
 
 </body>

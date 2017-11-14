@@ -55,6 +55,13 @@ li2{
     border-color:#33334C;
 
 }
+ 
+ .eve {
+    display: block;
+    margin: auto;
+    width: 65%;
+
+ }
 
 /*ul {
 	position: fixed;

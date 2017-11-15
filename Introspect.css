@@ -8,52 +8,100 @@ body{
 }
 p{
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+
 
 }
-
+ul{
+    text-align:center;
+    list-style-type: none;
+}
+li{
+    font-size:22px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#intro{
+    background-color: white;
+    margin:50px;
+    padding: 40px;
+    border-color: #33334C;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 10px;
+}
 
 h2{
     display: block;
     width:100%;
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 10px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-
-
 
 p1{
     text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 22px;
+
 }
 
-
+/*
 li1{
-    font-family: 'Quicksand', sans-serif;
+    font-family: Zapf Chancery, cursive;
     margin-left: 30px;
+    padding-right:25px;
     font-size: 16px;
+    border-right: solid 5px #33334C;
 
 }
 
 li2{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 
     margin-left: 50px;
     font-size: 16px;
+    padding-left:25px;
 
-}
+}*/
 
 .articles {
-    -webkit-columns: 100px 2;
+/*    -webkit-columns: 100px 2;
     -moz-columns: 100px 2;
     columns: 100px 2;
+    column-gap:100px;
+    column-rule-style: solid ;
+    column-rule-width: 5px;
+    column-rule-color:#33334C;
     margin-top: 25px;
     font: 400 18px/0.8 'Cookie', Helvetica, sans-serif;
     line-height: 25px;
-    background-color: #f2f2f2;
-    border-style: groove;
-    border-width: 50px;
-    border-color:#33334C;
+    background-color: #f2f2f2;*/
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
 
+}
+#article1{
+    width: 50%;
+    height: auto;
+
+    float: left;
+    font-size:25px;
+    border-color: #33334C;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 10px;
+}
+#article2{
+    margin-left: 52.75%;
+    width: 47.5;
+    height: auto;
+        font-size:25px;
+        border-color: #33334C;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 10px;
 }
  
  .eve {
@@ -121,137 +169,10 @@ li a:hover{
 
 
 }
-#contact{
-    margin-bottom: 100px;
+#Contact{
+    margin-bottom: -20px;
+    padding-bottom: -20px;
 }
-/*#leftarrow{
-    margin-left:180px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 86.6px 50px 0;
-    border-color: transparent #ccc transparent transparent;
-
- 
-    margin-left:180px;
-    background-color: #f2f2f2;
-    border-right:50px solid #ccc;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    border-radius: 10px;
-
-}*/
-
-/*#rightarrow{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 0 50px 86.6px;
-    border-color: transparent transparent transparent #ccc;
-    background-color: #f2f2f2;
-    border-left:50px solid #ccc;
-    border-top: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    border-radius: 10px;
-}
-*/
-
-/*#buttonboxprevious {
-    width: 90px;
-    height: 40px;
-    background-color: #ccc;
-    position: relative;
-    margin-left: 275px;
-    border-radius: 5px;
-}
-
-#buttonboxprevious:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -17px;
-    border-style: solid;
-    border-width: 20px 20px 20px 0;
-    border-color: transparent #ccc transparent transparent;
-}
-
-#buttonboxprevious > a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font: bold 18px/40px Sans-Serif;
-}
-
-#buttonboxprevious:hover {
-    background-color: black;
-}
-
-#buttonboxprevious:hover:before {
-    border-right-color: #ccc;
-}
-
-
-#buttonboxnext {
-    box-sizing: border-box;
-    width: 90px;
-    height: 40px;
-    background-color: #ccc;
-    position: relative;
-    margin-right: 40px;
-    border-radius: 5px;
-}
-
-#buttonboxnext:before {
-    box-sizing: border-box;
-    content: "";
-    position: absolute;
-    top: 0;
-    right: -17px;
-    border-style: solid;
-    border-width: 20px 0px 20px 20px;
-    border-color: transparent transparent transparent #ccc ;
-}
-
-#buttonboxnext > a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    font: bold 18px/40px Sans-Serif;
-}
-
-#buttonboxnext:hover {
-    background-color: black;
-}
-
-#buttonboxnext:hover:before {
-    border-left-color: #ccc;
-}
-
-
-
-#photo{
-    box-sizing: border-box;
-    margin: 40px 10px;
-    border: 5px solid #ccc;
-    border-radius: 5px;
-    width: 10%
-    height: 5%
-
-}
-#photo:hover {
-    border: 5px solid black;
-    box-sizing: border-box;
-    /*border: 10px solid #777;*/
-}
-/*.pulse-button:hover {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 50px 0 50px 86.6px;
-    border-color: transparent transparent transparent black;
-    /*border: 10px solid #777;*/
 #overlay {
     box-sizing: border-box;
     position: fixed; /* Sit on top of the page content */
@@ -277,47 +198,11 @@ li a:hover{
 form{
     margin: 50px;
 }
-input[type=text] {
-    width:43.35%;
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-select,textarea {
-    width:100%;
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
 
 /* Add a background color and some padding around the form */
 /*.container{;
 }*/
-#formbox {
+/*#formbox {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -325,42 +210,57 @@ input[type=submit]:hover {
     border-style: groove;
     border-width: 50px;
     border-color:#33334C;
-}
+}*/
 #social {
-    width:400px;
-    height:200px;
+    width:100%;
+    height:75px;
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin-right:0px;
+    padding: 5px;
+/*    margin-right:0px;
     margin-left: 930px;
     margin-top:-516px;
     border-style: groove;
     border-width: 30px;
-    border-color:#33334C;
+    border-color:#33334C;*/
+}
+
+#bottom{
+    font-size:15px;
+    margin-top:0;
+    margin-bottom:5px;
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 #twitter{
-        width: 50px;
-        height: 50px;
+    width: 4%;
+        height: auto;
         background-repeat: no-repeat;
+            margin-left:10%;
+    margin-right: 10%;
 }
 #facebook{
-    width: 50px;
-    height: 50px;
+    width: 4%;
+        height: auto;
+            margin-left:10%;
+    margin-right: 10%;
     background-repeat: no-repeat;
 /*    background-size: 100px 100px;*/
 }
 #snapchat{
-    width: 50px;
-    height: 50px;
+    width: 4%;
+        height: auto;
     background-repeat: no-repeat;
+                margin-left:10%;
+    margin-right: 10%;
 /*    background-size: 100px 100px;*/
 }
 
 #linkedin{
-    width: 50px;
-    height: 50px;
+    width: 4%;
+        height: auto;
     background-repeat: no-repeat;
+                margin-left:10%;
+    margin-right: 10%;
 /*    background-size: 100px 100px;*/
 
 
@@ -614,18 +514,15 @@ li a:hover{
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
 }
-<<<<<<< HEAD
+
 #overimg{
     box-sizing: border-box;
-=======
-/*#overimg{
->>>>>>> 4265b32078634340e57089c8da0ee2a3745526df
     display:block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
     margin-bottom: auto;
-}*/
+}
 
 input[type=text] {
     width:43.35%;
@@ -667,21 +564,23 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 /*.container{;
 }*/
-#formbox {
+/*#formbox {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     margin-right:200px;
-}
+}*/
+
 #social {
     width:400px;
     height:477px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-right:0px;
+/*    margin-right:0px;
     margin-left: 930px;
-    margin-top:-516px;
+    margin-top:-516px;*/
+    float:left;
 }
 #twitter{
         width: 50px;

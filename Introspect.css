@@ -77,8 +77,6 @@ h2{
 
  }
 
-
-
 .logo{
     background-color: white;
     width: 98%;
@@ -96,16 +94,21 @@ h2{
     width: 300px;
     height: 200px;
     margin: 20px 15px;
-    border-color: #33334C;
+    padding:10px;
+/*    border-color: #33334C;
     border-radius: 5px;
     border-style: double;
-    border-width: 20px;
+    border-width: 20px;*/
+    border-color: #33334C; 
+    border-style: solid;   
+    border-radius:5px;
+    border-width: 5px;
 
 
 }
 #Contact{
-    margin-bottom: -20px;
-    padding-bottom: -20px;
+    margin-bottom: -50px;
+    padding-bottom: -50px;
 }
 #overlay {
     box-sizing: border-box;
